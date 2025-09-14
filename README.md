@@ -28,13 +28,7 @@ npm install
 
 2. 配置环境变量 (可选，用于AI会议总结功能):
 ```bash
-# 方法1: 使用npm命令 (推荐)
-npm run setup
-
-# 方法2: 使用设置脚本
-./setup.sh
-
-# 方法3: 手动配置
+# 方法1: 手动配置
 cp .env.example .env.local
 # 然后编辑 .env.local 文件，添加您的OpenAI API密钥
 ```
